@@ -8,26 +8,28 @@ import { useState } from "react";
 function App() {
   // const hook = useState(0);
   //using destructor
-  let [ count, setCount]= useState(0);
+  let [ age, setAge]= useState(15);
   // console.log(a, b);
   // let count= 0;
   
 
   return (
     <>
-      <h1>Count is {count}</h1>
+      <h1>Age is {age}</h1>
       
       <button onClick={()=> {
-        count++;
-        setCount(count);
+        age++;
+        setAge(age);
       
     }
       }>Inc</button>
       <button onClick={()=> {
-        count--;
-        setCount(count);  
+        age--;
+        setAge(age);  
       }
       }>Dec</button>
+
+      <p>You are {age < 18 ? (age < 6 ?'a baby' : 'a child') : age>40? 'an old': 'an adult'}</p>
       
     </>
   )
