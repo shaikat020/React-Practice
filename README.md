@@ -19,8 +19,8 @@ Each task is organized into a separate branch for better structure and learning.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/<your-username>/React-Practice.git
+   cd React-Practive
 
 2. **Switch to the branch you want**
    ```bash
@@ -35,7 +35,8 @@ Each task is organized into a separate branch for better structure and learning.
 ## 🎯 Goals of This Practice
 
 - Strengthen React fundamentals
-- Practice state management (useState, useEffect, props)<!-- - Learn API integration & hooks-->
+- Practice state management (useState, useEffect, props)
+- Learn <!--API integration& -->hooks
 - Gain hands-on project experience
 
 ## 🙌 Acknowledgment
