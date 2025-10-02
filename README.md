@@ -8,9 +8,8 @@ Each task is organized into a separate branch for better structure and learning.
 ## 📌 Repository Structure
 
 - **main** → Documentation & Setup  
-- **practice-1** → Task 1: Counter App using `useState`  
-- **practice-2** → Task 2: Todo List with CRUD Operations  
-- **practice-3** → Task 3: Weather App (API Fetching)  
+- **practice-1** →  Exploring basics of React and props
+- **practice-2** →  Learning `useState`
 - *(More branches will be added as I progress)*  
 
 ---
