@@ -60,11 +60,12 @@ function App() {
         <h2>Results:        </h2>
         <p>Votes A : {votesA}</p>
         <p>Votes B : {votesB}</p>
+        <h2>Remarks:</h2>
+      <p>{message}</p>
         </>
       )}
       
-      <h2>Remarks:</h2>
-      <p>{message}</p>
+      
     </>
   )
 }
