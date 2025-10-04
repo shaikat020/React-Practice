@@ -10,6 +10,7 @@ Each task is organized into a separate branch for better structure and learning.
 - **main** → Documentation & Setup  
 - **practice-1** →  Exploring basics of React and props
 - **practice-2** →  Learning `useState`
+- **Task-1** →  Doing given task that is based on var, const, let, array(reference & copy), function, rest paratmeter, Object, spread operator, Destructuring, IIFE for JS and voting app for react
 - *(More branches will be added as I progress)*  
 
 ---
@@ -23,8 +24,9 @@ Each task is organized into a separate branch for better structure and learning.
 
 2. **Switch to the branch you want**
    ```bash
-   git checkout practice-1   # For Task 1
-   git checkout practice-2   # For Task 2
+   git checkout practice-1   # For Practice 1
+   git checkout practice-2   # For Practice 2
+   git checkout Task-1   # For Task 1
 
 3. **Install dependencies & run the project**
    ```bash
