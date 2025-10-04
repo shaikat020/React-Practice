@@ -7,10 +7,10 @@ Each task is organized into a separate branch for better structure and learning.
 
 ## 📌 Repository Structure
 
-- **main** → Documentation & Setup  
-- **practice-1** →  Exploring basics of React and props
-- **practice-2** →  Learning `useState`
-- **Task-1** →  Doing given task that is based on var, const, let, array(reference & copy), function, rest paratmeter, Object, spread operator, Destructuring, IIFE for JS and voting app for react
+- **[main](https://github.com/shaikat020/React-Practice/tree/main)** → Documentation & Setup  
+- **[practice-1](https://github.com/shaikat020/React-Practice/tree/practice-1)** →  Exploring basics of React and props
+- **[practice-2](https://github.com/shaikat020/React-Practice/tree/practice-2)** →  Learning `useState`
+- **[Task-1](https://github.com/shaikat020/React-Practice/tree/Task-1)** →  Doing given task that is based on var, const, let, array(reference & copy), function, rest paratmeter, Object, spread operator, Destructuring, IIFE for JS and voting app for react
 - *(More branches will be added as I progress)*  
 
 ---
