@@ -11,6 +11,7 @@ Each task is organized into a separate branch for better structure and learning.
 - **[practice-1](https://github.com/shaikat020/React-Practice/tree/practice-1)** →  Exploring basics of React and props
 - **[practice-2](https://github.com/shaikat020/React-Practice/tree/practice-2)** →  Learning `useState`
 - **[Task-1](https://github.com/shaikat020/React-Practice/tree/Task-1)** →  Doing given task that is based on var, const, let, array(reference & copy), function, rest paratmeter, Object, spread operator, Destructuring, IIFE for JS and voting app for react
+- **[practice-3](https://github.com/shaikat020/React-Practice/tree/practice-3)** → Creating form field (input field)
 - *(More branches will be added as I progress)*  
 
 ---
@@ -27,6 +28,7 @@ Each task is organized into a separate branch for better structure and learning.
    git checkout practice-1   # For Practice 1
    git checkout practice-2   # For Practice 2
    git checkout Task-1   # For Task 1
+   git checkout practice-3   # For Practice 3
 
 3. **Install dependencies & run the project**
    ```bash
