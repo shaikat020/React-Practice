@@ -40,11 +40,11 @@ export const Frm = () => {
       })
     }
     
-  return <><input type="text" value={input.name} name='name' onChange={(e) => handleChange(e)}/>
+  return <><input type="text" value={input.name} name='name' onChange={handleChange}/>
   <br />
   <br />
-  <input type="number" value={input.age} name='age'  onChange={(e) => handleChange(e)}/>
-  <select value={input.gender} name='gender' onChange={(e)=> handleChange(e)}>
+  <input type="number" value={input.age} name='age'  onChange={handleChange}/>
+  <select value={input.gender} name='gender' onChange={handleChange}>
     <option value="" disabled>--Select--</option>
     <option value="Male">Male</option>
     <option value="Female">Female</option>
