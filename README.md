@@ -21,7 +21,7 @@ Each task is organized into a separate branch for better structure and learning.
 1. **Clone the repository**
    ```bash
    git clone https://github.com/shaikat020/React-Practice.git
-   cd React-Practive
+   cd React-Practice
 
 2. **Switch to the branch you want**
    ```bash
