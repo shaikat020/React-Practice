@@ -2,26 +2,49 @@ import { useState } from 'react';
 
 
 export const Frm = () => {
-    const [name, setName] = useState("Shaikat");
-    const [age, setAge] = useState("22");
-    const [gender, setgender] = useState("");  
+    const [input, setInput] = useState({
+      name : "Shaikat",
+      age : 22,
+      gender : ""
+    });
     
-    const handleChange = (setState, value)=>{
-      console.log(value);
-      setState(value);
+    
+    const handleChange = (e)=>{
+      if (e.target.name === 'name'){
+        //1st method 
+        // input.name = e.target.value;
+        // setInput({ ...input });
+        //2nd method 
+        setInput({...input, name : e.target.value});
+      }
+      if (e.target.name === 'age'){
+        //1st method 
+        // input.name = e.target.value;
+        // setInput({ ...input });
+        //2nd method 
+        setInput({...input, age : e.target.value});
+        
+      }
+      if (e.target.name === 'gender'){
+        //1st method 
+        // input.name = e.target.value;
+        // setInput({ ...input });
+        //2nd method 
+        setInput({...input, gender : e.target.value});
+      }
     }
     
-  return <><input type="text" value={name}  onChange={(e) => handleChange(setName, e.target.value)}/>
+  return <><input type="text" value={input.name} name='name' onChange={(e) => handleChange(e)}/>
   <br />
   <br />
-  <input type="number" value={age}  onChange={(e) => handleChange(setAge, e.target.value)}/>
-  <select value={gender} onChange={(e)=> handleChange(setgender, e.target.value)}>
+  <input type="number" value={input.age} name='age'  onChange={(e) => handleChange(e)}/>
+  <select value={input.gender} name='gender' onChange={(e)=> handleChange(setgender, e.target.value)}>
     <option value="" disabled>--Select--</option>
     <option value="Male">Male</option>
     <option value="Female">Female</option>
   </select>
 
-  <p>My name is {name}, I am {age} years old.</p>
+  <p>My name is {input.name}, I am {input.age} years old.</p>
   </>
   
 
