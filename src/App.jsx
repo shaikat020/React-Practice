@@ -1,8 +1,13 @@
 
 import {Frm} from './components/form'
+import Todo from './components/todo'
 
 function App() {
-  return (<><Frm /></>
+  return (<>
+  {/* <Frm /> */}
+  
+  <Todo></Todo>
+  </>
     
   )
 }
